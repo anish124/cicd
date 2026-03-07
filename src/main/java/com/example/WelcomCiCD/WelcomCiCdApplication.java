@@ -21,7 +21,7 @@ public class WelcomCiCdApplication {
 	@GetMapping("/welcome")
 	public String welcome(){
 
-		return "welcome to ci/cd";
+		return "welcome to ci/cd world";
 	}
 
 	public static void main(String[] args) {
