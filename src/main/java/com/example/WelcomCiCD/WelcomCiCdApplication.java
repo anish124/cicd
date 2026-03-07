@@ -17,7 +17,7 @@ public class WelcomCiCdApplication {
 //	git branch -M main
 //	git remote add origin https://github.com/anish124/cicd.git
 //	git push -u origin main
-	
+//git config --global user.email "anish.g.reddy@gmail.com"
 	@GetMapping("/welcome")
 	public String welcome(){
 
